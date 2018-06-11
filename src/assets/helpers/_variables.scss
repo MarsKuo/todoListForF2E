@@ -183,9 +183,8 @@ $grid-breakpoints: (
 
 $container-max-widths: (
   sm: 540px,
-  md: 720px,
-  lg: 960px,
-  xl: 1140px
+  md: 650px,
+
 ) !default;
 
 @include _assert-ascending($container-max-widths, "$container-max-widths");
@@ -927,3 +926,6 @@ $pre-scrollable-max-height:         340px !default;
 // Printing
 $print-page-size:                   a3 !default;
 $print-body-min-width:              map-get($grid-breakpoints, "lg") !default;
+
+
+$darken-primary: #00408B;

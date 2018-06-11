@@ -1,7 +1,7 @@
 <template>
  <div class="mb-4">
     <div class="todo-item">
-      <div class="handle text-muted"><i class="fas fa-ellipsis-v"></i></div>
+      <!-- <div class="handle text-muted"><i class="fas fa-ellipsis-v"></i></div> -->
       <div class="todo-header">
         <div class="todo-check">
           <input type="checkbox" id="123">
@@ -23,8 +23,6 @@
         <span>from: 2018-06-28</span>
         <span> ~ </span>
         <span>to: 2018-06-28 </span>
-        <!-- <i class="far fa-file ml-3"></i> -->
-        <i class="fas fa-comment-dots ml-3"></i> 3
       </div>
     </div>
   </div>

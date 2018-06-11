@@ -10,19 +10,14 @@
     <div class="container my-4">
       <div class="position-relative">
         <i class="fas fa-plus fa-lg text-black-50 position-absolute" style="left: 1rem; top: 1.15rem"></i>
-        <input type="text" class="form-control form-control-lg pl-5"
+        <input type="text" class="form-control form-control-lg pl-5" placeholder="Add Task"
           >
       </div>
 
-      <div class="mt-4">
-          <MyEditItem
-          ></MyEditItem>
+      <div class="mt-4 ">
+          <MyEditItem></MyEditItem>
 
-          <div >
-            <MyItem
-            ></MyItem>
-            <MyEditItem ></MyEditItem>
-          </div>
+          <MyItem></MyItem>
       </div>
 
     </div>
@@ -43,6 +38,27 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
+.todo-nav {
+  font-size: 28px;
+  // display: block;
+  a {
+    font-size: 28px;
+    color: #00408b;
+    text-decoration: none;
+    display: block;
+    flex: 1;
+    text-align: center;
+    padding: 1.2rem;
+    &:hover,
+    &a:active,
+    &.active {
+      border-bottom: 3px solid #00408B;
 
+    }
+    &.active {
+      color: #fff;
+    }
+  }
+}
 </style>

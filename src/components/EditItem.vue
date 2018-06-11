@@ -1,18 +1,20 @@
 <template>
-  <div class="mb-4">
-    <div class="todo-item active">
+  <div class="mb-4 edititem">
+    <div class="todo-item active ">
+
       <div class="todo-header">
-        <!-- <div class="todo-check">
-          <input type="checkbox" id="456">
-          <label for="456"></label>
-        </div> -->
+        <div class="todo-check">
+
+        </div>
         <div class="todo-title">
-          <input type="text" value="可輸入內容" class="form-control">
+          <input type="text" class="form-control">
         </div>
       </div>
+
       <div class="todo-body">
         <div class="todo-content">
-          <div class="todo-row">
+
+          <div class="todo-row d-flex">
             <div class="todo-icon">
               <i class="far fa-calendar-alt"></i>
             </div>
@@ -24,18 +26,17 @@
               </div>
             </div>
           </div>
-          <div class="todo-row">
+
+          <div class="todo-row d-flex">
             <div class="todo-icon">
               <i class="far fa-comment-dots"></i>
             </div>
             <div class="todo-form-control">
               <label for="">Comment</label>
-              <div class="bg-white p-3 my-3">留言訊息</div>
-              <div>
                 <textarea name="" class="form-control w-100 border-0"></textarea>
-              </div>
             </div>
           </div>
+
         </div>
         <div class="todo-btn-group d-flex">
           <button class="btn text-danger w-50 btn-lg">
